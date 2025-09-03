@@ -48,3 +48,4 @@ matopen("kuramoto/kuramoto.data", "w") do file
     data = stack(sol.u);
     write(file, "data", data);
 end
+
